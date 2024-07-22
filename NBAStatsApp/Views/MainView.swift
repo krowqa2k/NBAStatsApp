@@ -27,8 +27,8 @@ struct MainView: View {
                 
                 SettingsView()
                     .tabItem {
-                        Image(systemName: "heart")
-                        Text("Favorite team")
+                        Image(systemName: "gear")
+                        Text("Settings")
                     }
                     .padding(.bottom)
             }
